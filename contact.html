@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact-me</title>
+  </head>
+
+  <body>
+    <h1>My Contact Details</h1>
+    <p>
+      Old Town Road <br />
+      420 Peter Street <br />
+      Chennai 600999 <br />
+      TAMILNADU,IN<br />
+    </p>
+    <p><a href="+91-8610000926">+91-8610000926</a></p>
+    <p>praggypraggy@gmail.com</p>
+		<form action="mailto:praggypraggy@gmail.com" method="POST" enctype="text/plain">
+			<label>Your Name:</label>
+			<input type="text" name="YourName" value=""><br>
+			<label>Your Email:</label>
+			<input type="email" name="YourEmail" value=""><br>
+			<label>Your Message:</label><br>
+			<textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+			<input type="submit" name="" >
+		</form>
+
+		<footer>
+			<button onclick="goBack()">Go Back</button>
+			<script>
+				function goBack() {
+				window.history.back();
+				}
+			</script>
+		</footer>
+  </body>
+	
+</html>
