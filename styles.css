@@ -1,0 +1,14 @@
+body {
+  background-color: #c8c9c9;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 100%;
+}
+/************* CLASS SELECTOR *************/
+.stu:hover{
+  color: blue;
+}
