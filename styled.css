@@ -1,0 +1,64 @@
+body {
+  background-color: #7868e6;
+  margin: 0;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+h1 {
+    margin: 70px auto 10px auto ;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+}
+h2 {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/***************************** Class selector  ****************************/
+.stu {
+  color: aqua;
+}
+.stu:hover {
+  color: red;
+}
+.top-container {
+  display: block;
+}
+.bottom-container img {
+  height: 32px;
+  width: 32px;
+}
+.bottom-container a {
+  color: aqua;
+}
+.skill-row{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+/*
+.bottom-container a{
+    position: absolute;
+    margin-top: 10px;
+}*/
+.middle-container {
+  background-color: #b8b5ff;
+}
+.fBtn{
+  background-color: #b8b5ff;
+  border-width: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+/*********
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Ubuntu', sans-serif;
+
+**********/
